@@ -7,8 +7,7 @@
 `LoadConfigurationFiles` 使用仓库中的配置文件覆盖本地的配置文件  
 
 ## Shell Folder
-
-
+`.zshrc` oh-my-zsh 配置文件
 
 ## XcodeTheme  
 Solarized Dark Theme for Xcode  
