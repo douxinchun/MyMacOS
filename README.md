@@ -9,6 +9,9 @@
 ## Shell Folder
 `.zshrc` oh-my-zsh 配置文件
 
+## Karabiner
+`Karabiner/karabiner` 会以软连接的方式链接到真实的 karabiner 配置文件目录下。
+
 ## XcodeTheme  
 Solarized Dark Theme for Xcode  
 安装  
