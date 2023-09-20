@@ -11,14 +11,14 @@ Hammerspoon config file location: `~/.hammerspoon`. `LoadConfigurationFiles` wil
 | <kbd>⌥</kbd> | Option      |
 | <kbd>⌘</kbd> | Command   	 |
 
-<kbd>hyper<kbd> is equal to <kbd>⌃</kbd><kbd>⌥</kbd><kbd>⌘</kbd>
+<kbd>hyper</kbd> is equal to <kbd>⌃</kbd><kbd>⌥</kbd><kbd>⌘</kbd>
 ## Features
 
 ### Window Management
 
 #### Split Screen Actions
 
-* <kbd>hyper<kbd> + <kbd>←</kbd> Left half
-* <kbd>hyper<kbd> + <kbd>→</kbd> Right half
-* <kbd>hyper<kbd> + <kbd>↑</kbd> Top half
-* <kbd>hyper<kbd> + <kbd>↓</kbd> Bottom half
+* <kbd>hyper</kbd> + <kbd>←</kbd> Left half
+* <kbd>hyper</kbd> + <kbd>→</kbd> Right half
+* <kbd>hyper</kbd> + <kbd>↑</kbd> Top half
+* <kbd>hyper</kbd> + <kbd>↓</kbd> Bottom half
