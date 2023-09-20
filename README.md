@@ -12,6 +12,9 @@
 ## Karabiner
 `Karabiner/karabiner` 会以软连接的方式链接到真实的 karabiner 配置文件目录下。
 
+## Hammerspoon
+
+
 ## XcodeTheme  
 Solarized Dark Theme for Xcode  
 安装  
