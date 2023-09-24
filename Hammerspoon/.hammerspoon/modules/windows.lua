@@ -61,7 +61,6 @@ end)
 -- full screen
 hotkey.bind(hyper, 'F', function() 
   window.focusedWindow():toggleFullScreen()
-  hs.alert('Center')
 end)
 
 -- center window
