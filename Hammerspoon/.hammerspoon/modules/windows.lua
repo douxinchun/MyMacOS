@@ -109,12 +109,20 @@ end)
 
 -- move cursor to previous monitor
 hotkey.bind(hyperCtrl, "Left", function ()
-  focusScreen(window.focusedWindow():screen():previous())
+  local screen = hs.mouse.getCurrentScreen()
+  local nextScreen = screen:next()
+  local rect = nextScreen:fullFrame()
+  local center = hs.geometry.rectMidPoint(rect)
+  hs.mouse.setAbsolutePosition(center)
 end)
 
 -- move cursor to next monitor
 hotkey.bind(hyperCtrl, "Right", function ()
-  focusScreen(window.focusedWindow():screen():next())
+  local screen = hs.mouse.getCurrentScreen()
+  local previousScreen = screen:previous()
+  local rect = previousScreen:fullFrame()
+  local center = hs.geometry.rectMidPoint(rect)
+  hs.mouse.setAbsolutePosition(center)
 end)
 
 
